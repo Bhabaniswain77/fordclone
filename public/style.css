@@ -1,0 +1,500 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: flexbox;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: "Truculenta", sans-serif;
+}
+
+li {
+    cursor: pointer;
+}
+
+.head_top {
+    display: flex;
+    margin-top: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 56px;
+    padding-right: 56px;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.navlist:hover {
+    text-emphasis-color: aliceblue;
+}
+
+.navlist {
+    text-decoration: none;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.nav_items {
+    text-decoration: none;
+    color: white;
+
+}
+
+.brand_logo_in {
+    background-image: url("https://www.ford.com/cmslibs/etc/designs/brand_ford/brand/skin/ford/img/bri-icons/Ford-logo-white.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 105px;
+    height: 53px;
+    background-size: 100% 100%;
+    margin-top: 30px;
+}
+
+.brandlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_list {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    flex-flow: row nowrap;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 83%;
+}
+
+.icon_image_list {
+    margin-left: 19px;
+    flex-direction: column;
+}
+
+.backimg {
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    padding: 24px 56px;
+}
+
+.container11 {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+}
+
+.heading1 {
+    color: aliceblue;
+    font-size: 4rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.bronco {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.text_bronco:hover {
+    background-color: grey;
+    color: aliceblue;
+}
+
+.text_bronco {
+    margin-right: 60px;
+    margin-top: 90px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.6s ease;
+}
+
+.bronco_link {
+    text-decoration: none;
+}
+
+.popup_link_text {
+    color: aliceblue;
+}
+
+.vech {
+    padding-top: 40px;
+}
+
+.firstblock {
+    padding-top: 5px;
+}
+
+.outer_box {
+    display: block;
+    margin: 80px 0;
+}
+
+.component1 {
+    display: flex;
+}
+
+.image1 {
+    width: 720px;
+    height: 540px;
+    display: flex;
+    float: left;
+}
+
+.component2 {
+    display: block;
+    padding-left: 24px;
+    padding-top: 20px;
+}
+
+.heding2 {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 0.7px;
+}
+
+.para {
+    padding-top: 8px;
+}
+
+.para1 {
+    font-size: 17px;
+    font-weight: 0;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.Button_inner_text {
+    color: white;
+    background-color: #0068d0;
+    border-radius: 20px;
+    padding: 8px;
+    align-items: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.6s ease;
+}
+
+.Watch_vedio {
+    text-decoration: none;
+}
+
+.button_box {
+    margin-top: 29px;
+}
+
+.Button_inner_text:hover {
+    background-color: rgb(7, 7, 202);
+}
+
+.button_container1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 56px;
+    display: block;
+    position: relative;
+}
+
+.list_of_buttons {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+
+}
+
+.tab_items {
+    padding-left: 8px;
+    padding-right: 8px;
+    min-height: 36px;
+    flex: 1 1 100%;
+    width: 100%;
+    /* margin-right: 50px; */
+
+}
+
+.tab_button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid rgb(101, 101, 244);
+    width: 100%;
+    height: 100%;
+    transition: 0.6s ease;
+}
+
+.tab_label {
+    font-size: 20px;
+    color: rgb(98, 98, 244);
+}
+
+.tab_label1 {
+    font-size: 20px;
+    color: grey;
+}
+
+.tab_button1 {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s ease;
+}
+
+.tab_button:hover {
+    background-color: lightgray;
+}
+
+.image_roll {
+    width: 1340px;
+    padding-left: 0;
+    padding-top: 50px;
+    height: 581px;
+}
+
+.image_roll_heading {
+    position: absolute;
+    top: 60%;
+    font-size: 40px;
+    right: 55%;
+    height: 50px;
+}
+
+.roll_inner_text {
+    color: aliceblue;
+    font-weight: 300;
+
+}
+
+.roll_button {
+    position: absolute;
+    display: flex;
+    top: 78%;
+    right: 64%;
+
+}
+
+.roll_inner {
+    position: relative;
+    flex-direction: column;
+
+}
+
+.text_roll {
+    margin-right: 60px;
+    margin-top: 90px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.6s ease;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.roll_link {
+    text-decoration: none;
+}
+
+.roll_detail_link {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+}
+
+.roll_link_text {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.fifth_page {
+    padding: 56px;
+    margin: 56px;
+    padding-bottom: 30px;
+}
+
+.only_image {
+    background-color: rgb(25, 25, 49);
+}
+
+.heading_fifth {
+    color: white;
+    font-size: 70px;
+    letter-spacing: 1.5px;
+    font-weight: 150;
+    height: 50%;
+}
+
+.para_fifth {
+    color: white;
+}
+
+.fifth_para {
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.fifth_button_text {
+    margin-right: 60px;
+    margin-top: 90px;
+    color: whitesmoke;
+    background-color: rgb(70, 144, 234);
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 0.6s ease;
+    letter-spacing: 1.4px;
+    word-spacing: 1.5px;
+}
+
+.fifth_button_link {
+    text-decoration: none;
+}
+
+.fifth_button_inner {
+    margin-top: 25px;
+}
+
+.container2_image_list_box1 {
+    display: flex;
+    flex-direction: row;
+    height: 480px;
+    width: 480px;
+    padding-left: 5%;
+}
+
+.image1_container2 {
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.list_box_image1,
+.list_box_image2 {
+    border-radius: 10px;
+}
+
+.list_box_image1 {
+    margin-left: 0;
+}
+
+.imagesec_hed {
+    color: azure;
+}
+
+.first_container_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+
+.list_nav_footer {
+    flex-direction: row;
+}
+
+.unordered_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 900px;
+}
+
+.search-input {
+    width: 178px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #010203;
+    position: absolute;
+    margin-right: 900px;
+}
+
+.list_items_footer1 {
+    padding-right: 15px;
+    letter-spacing: 1px;
+}
+
+.image1_1_clr {
+    color: whitesmoke;
+}
+
+.image_des {
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.image2_des2 {
+    margin-left: 25px;
+}
+
+.gap_des {
+    margin-top: 20px;
+}
+
+.last_button_conn {
+    padding-bottom: 100px;
+}
